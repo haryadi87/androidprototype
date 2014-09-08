@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+   	
+	<LinearLayout 
+	    android:id="@+id/LinearLayout01"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <EditText
+	        android:id="@+id/patientName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Name"/>
+	 </LinearLayout>
+	 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+	<LinearLayout 
+	    android:id="@+id/LinearLayout02"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <EditText
+	        android:id="@+id/patientNumber"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Phone number"
+	        android:inputType="phone" />
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout 
+	    android:id="@+id/LinearLayout03"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <EditText
+	        android:id="@+id/patientAddress"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Address" />
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout 
+	    android:id="@+id/LinearLayout04"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <EditText
+	        android:id="@+id/patientEmail"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Email"
+	        android:inputType="textEmailAddress" />
+	</LinearLayout>
+	
+    <Button
+        android:id="@+id/patientSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
